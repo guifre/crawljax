@@ -9,6 +9,7 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import com.crawljax.core.configuration.CrawljaxConfigurationReader;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 /**
  * This class represents the default Crawljax used implementation of the BrowserBuilder. It's based
@@ -65,6 +66,11 @@ public class WebDriverBrowserBuilder implements EmbeddedBrowserBuilder {
 				                .getCrawlSpecificationReader().getWaitAfterReloadUrl());
 
 			case chrome:
+                            // Guifre Ruiz: Added proxy config support for Chrome
+                            ChromeOptions options = new ChromeOptions();
+                            options.addArguments("--proxy-server=http://"+configuration.getProxyConfiguration().getHostname()+":"+    configuration.getProxyConfiguration().getPort());
+                            ChromeDriver c = new ChromeDriver(options);
+                            
 				return WebDriverBackedEmbeddedBrowser.withDriver(new ChromeDriver(),
 				        configuration.getFilterAttributeNames(), configuration
 				                .getCrawlSpecificationReader().getWaitAfterEvent(), configuration
