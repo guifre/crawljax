@@ -196,6 +196,7 @@ public final class CrawljaxPluginsUtil {
 		LOGGER.info("Running PreStateCrawlingPlugins...");
 		for (Plugin plugin : CrawljaxPluginsUtil.PLUGINS) {
 			if (plugin instanceof PreStateCrawlingPlugin) {
+                            LOGGER.info("Calling plugin " + plugin.getClass().getName());
 				((PreStateCrawlingPlugin) plugin).preStateCrawling(session, candidateElements);
 			}
 		}

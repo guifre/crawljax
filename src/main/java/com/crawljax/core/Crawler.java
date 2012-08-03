@@ -449,8 +449,11 @@ public class Crawler implements Runnable {
 		        configurationReader.getCrawlSpecificationReader().getClickOnce())) {
 			// Only execute the preStateCrawlingPlugins when it's the first time
 			LOGGER.info("Starting preStateCrawlingPlugins...");
+                        List<CandidateElement> candidateElements = orrigionalState.getUnprocessedCandidateElements();
 			CrawljaxPluginsUtil.runPreStateCrawlingPlugins(controller.getSession(),
-			        orrigionalState.getUnprocessedCandidateElements());
+			        candidateElements);
+                        // update crawlActions
+                        orrigionalState.filterCandidateActions(candidateElements);            
 		}
 
 		CandidateCrawlAction action =
