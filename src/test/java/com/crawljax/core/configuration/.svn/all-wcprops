@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/332/trunk/src/test/java/com/crawljax/core/configuration
+END
+UnderXPathTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/332/trunk/src/test/java/com/crawljax/core/configuration/UnderXPathTest.java
+END
+underxpath.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/332/trunk/src/test/java/com/crawljax/core/configuration/underxpath.html
+END
+crawljax.properties
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/294/trunk/src/test/java/com/crawljax/core/configuration/crawljax.properties
+END
+ConfigurationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/295/trunk/src/test/java/com/crawljax/core/configuration/ConfigurationTest.java
+END
+PropertiesFileTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/111/trunk/src/test/java/com/crawljax/core/configuration/PropertiesFileTest.java
+END

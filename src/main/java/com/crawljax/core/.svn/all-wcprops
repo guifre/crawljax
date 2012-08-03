@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/492/trunk/src/main/java/com/crawljax/core
+END
+Crawler.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/492/trunk/src/main/java/com/crawljax/core/Crawler.java
+END
+TagAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/66/trunk/src/main/java/com/crawljax/core/TagAttribute.java
+END
+CandidateCrawlAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/197/trunk/src/main/java/com/crawljax/core/CandidateCrawlAction.java
+END
+ExtractorManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/396/trunk/src/main/java/com/crawljax/core/ExtractorManager.java
+END
+CrawlQueueManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/446/trunk/src/main/java/com/crawljax/core/CrawlQueueManager.java
+END
+InitialCrawler.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/483/trunk/src/main/java/com/crawljax/core/InitialCrawler.java
+END
+CrawlSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/404/trunk/src/main/java/com/crawljax/core/CrawlSession.java
+END
+CrawlQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/389/trunk/src/main/java/com/crawljax/core/CrawlQueue.java
+END
+CrawlerExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/446/trunk/src/main/java/com/crawljax/core/CrawlerExecutor.java
+END
+CrawljaxController.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/446/trunk/src/main/java/com/crawljax/core/CrawljaxController.java
+END
+CandidateElementManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/440/trunk/src/main/java/com/crawljax/core/CandidateElementManager.java
+END
+CandidateElementExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/446/trunk/src/main/java/com/crawljax/core/CandidateElementExtractor.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/65/trunk/src/main/java/com/crawljax/core/package-info.java
+END
+TagElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/436/trunk/src/main/java/com/crawljax/core/TagElement.java
+END
+CandidateElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/396/trunk/src/main/java/com/crawljax/core/CandidateElement.java
+END
+CrawljaxException.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/400/trunk/src/main/java/com/crawljax/core/CrawljaxException.java
+END

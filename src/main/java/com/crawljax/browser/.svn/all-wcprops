@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/490/trunk/src/main/java/com/crawljax/browser
+END
+WebDriverBackedEmbeddedBrowser.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/490/trunk/src/main/java/com/crawljax/browser/WebDriverBackedEmbeddedBrowser.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/65/trunk/src/main/java/com/crawljax/browser/package-info.java
+END
+EmbeddedBrowserBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/433/trunk/src/main/java/com/crawljax/browser/EmbeddedBrowserBuilder.java
+END
+WebDriverBrowserBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/465/trunk/src/main/java/com/crawljax/browser/WebDriverBrowserBuilder.java
+END
+BrowserPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/482/trunk/src/main/java/com/crawljax/browser/BrowserPool.java
+END
+EmbeddedBrowser.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/465/trunk/src/main/java/com/crawljax/browser/EmbeddedBrowser.java
+END

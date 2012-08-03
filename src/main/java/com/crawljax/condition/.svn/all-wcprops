@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/450/trunk/src/main/java/com/crawljax/condition
+END
+CountCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/396/trunk/src/main/java/com/crawljax/condition/CountCondition.java
+END
+NotRegexCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/396/trunk/src/main/java/com/crawljax/condition/NotRegexCondition.java
+END
+VisibleCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/396/trunk/src/main/java/com/crawljax/condition/VisibleCondition.java
+END
+UrlCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/396/trunk/src/main/java/com/crawljax/condition/UrlCondition.java
+END
+AbstractCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/369/trunk/src/main/java/com/crawljax/condition/AbstractCondition.java
+END
+NotXPathCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/396/trunk/src/main/java/com/crawljax/condition/NotXPathCondition.java
+END
+JavaScriptCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/446/trunk/src/main/java/com/crawljax/condition/JavaScriptCondition.java
+END
+RegexCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/446/trunk/src/main/java/com/crawljax/condition/RegexCondition.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/65/trunk/src/main/java/com/crawljax/condition/package-info.java
+END
+NotVisibleCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/396/trunk/src/main/java/com/crawljax/condition/NotVisibleCondition.java
+END
+Condition.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/396/trunk/src/main/java/com/crawljax/condition/Condition.java
+END
+ConditionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/78/trunk/src/main/java/com/crawljax/condition/ConditionType.java
+END
+NotUrlCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/396/trunk/src/main/java/com/crawljax/condition/NotUrlCondition.java
+END
+XPathCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/446/trunk/src/main/java/com/crawljax/condition/XPathCondition.java
+END
+Logic.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/396/trunk/src/main/java/com/crawljax/condition/Logic.java
+END

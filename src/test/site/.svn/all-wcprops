@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/491/trunk/src/test/site
+END
+testInvariants.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/4/trunk/src/test/site/testInvariants.html
+END
+testOracleComparators.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/4/trunk/src/test/site/testOracleComparators.html
+END
+testCrawlconditions.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/4/trunk/src/test/site/testCrawlconditions.html
+END
+testDepth.html
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4/trunk/src/test/site/testDepth.html
+END
+testCrawlElements.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/4/trunk/src/test/site/testCrawlElements.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/4/trunk/src/test/site/index.html
+END
+home.html
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/4/trunk/src/test/site/home.html
+END
+testCrawlElementCondition.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/trunk/src/test/site/testCrawlElementCondition.html
+END
+testWaitCondition.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/4/trunk/src/test/site/testWaitCondition.html
+END
