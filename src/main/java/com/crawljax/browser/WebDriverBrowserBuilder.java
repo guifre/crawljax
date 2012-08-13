@@ -66,16 +66,19 @@ public class WebDriverBrowserBuilder implements EmbeddedBrowserBuilder {
 				                .getCrawlSpecificationReader().getWaitAfterReloadUrl());
 
 			case chrome:
-                            
                                 // Guifre Ruiz: Added proxy config support for Chrome
-                                ChromeOptions optionsChrome = new ChromeOptions();
-                                optionsChrome.addArguments("--proxy-server=http://"+configuration.getProxyConfiguration().getHostname()+":"+    configuration.getProxyConfiguration().getPort());
-                                ChromeDriver driverChrome = new ChromeDriver(optionsChrome);                
-				
+                                ChromeDriver driverChrome = null;
+                                if (configuration.getProxyConfiguration() != null) {
+                                    ChromeOptions optionsChrome = new ChromeOptions();
+                                    optionsChrome.addArguments("--proxy-server=http://"+configuration.getProxyConfiguration().getHostname()+":"+    configuration.getProxyConfiguration().getPort());
+                                    driverChrome = new ChromeDriver(optionsChrome);
+                                } else {
+                                    driverChrome = new ChromeDriver();
+                                }
                                 return WebDriverBackedEmbeddedBrowser.withDriver(driverChrome,
-				        configuration.getFilterAttributeNames(), configuration
-				                .getCrawlSpecificationReader().getWaitAfterEvent(), configuration
-				                .getCrawlSpecificationReader().getWaitAfterReloadUrl());
+                                        configuration.getFilterAttributeNames(), configuration
+                                                .getCrawlSpecificationReader().getWaitAfterEvent(), configuration
+                                                .getCrawlSpecificationReader().getWaitAfterReloadUrl());
 
 			case remote:
 				return WebDriverBackedEmbeddedBrowser.withRemoteDriver(configuration
@@ -87,8 +90,9 @@ public class WebDriverBrowserBuilder implements EmbeddedBrowserBuilder {
                             
                                 // Guifre Ruiz: Added proxy config support for HtmlUnit
                                 HtmlUnitDriver driverHtmlUnit = new HtmlUnitDriver(true);
-                                driverHtmlUnit.setProxy(configuration.getProxyConfiguration().getHostname(), configuration.getProxyConfiguration().getPort()); 
-				
+                                if (configuration.getProxyConfiguration() != null) {
+                                    driverHtmlUnit.setProxy(configuration.getProxyConfiguration().getHostname(), configuration.getProxyConfiguration().getPort()); 
+                                }
                                 return WebDriverBackedEmbeddedBrowser.withDriver(driverHtmlUnit,
 				        configuration.getFilterAttributeNames(), configuration
 				                .getCrawlSpecificationReader().getWaitAfterEvent(), configuration
